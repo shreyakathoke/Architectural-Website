@@ -1,0 +1,376 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body{
+  background-color: #ffffff;
+ 
+}
+
+li{
+   list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+html ,body{
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+
+/*navigation*/
+
+.main-navigation {
+    background-image: url("../images/illustration/hero2%20(1).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.company a{
+    font-size: 1.7rem;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+.company-btn button{
+    width: 35px;
+    font-size: 1.7rem;
+   background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    
+}
+.offcanvas-body ul li{
+   
+    font-weight: bold;
+    list-style: none;
+
+}
+.offcanvas-body ul li a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.architect h2{
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.architect p{
+    color: #cfcbcb;
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+
+}
+.architect button{
+    
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    font-weight: bold;
+}
+.architect button:hover{
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+
+.home ul{
+    padding-top: 20px;
+    align-content: center;
+}
+
+.home ul li a{
+    color: #ffffff;
+    
+    font-weight: 700;
+    text-decoration: none;
+}
+.home ul li a:hover{
+    color: #a8977b;
+}
+
+.home ul li button{
+    width: 170px;
+    height: 40px;
+    background: transparent;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    font-weight: bold;
+    
+
+}
+
+.home ul li button:hover{
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+
+.divclass{
+    background-color: #f8f9fa;
+    
+}
+.divclass1{
+   padding: 20px;
+    background-color: #ffffff;
+    
+}
+.divclass1 h2{
+    font-size: 3.5rem;
+    color: #a8977b;
+    font-weight: bold;
+}
+.divclass1 p{
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.service h2{
+    font-size: 3.5rem;
+    font-weight: bold;
+
+}
+.service p{
+    font-size: 1.2rem;
+    color: rgb(87, 86, 86);
+}
+
+.residential{
+        
+    background-color: #fff3cd;
+    align-items: end;
+    padding: 0px 0px 30px 20px;
+}
+.residential p{
+    color: #8f7140;
+}
+.residential h3{
+    font-size: 1.9rem;
+    color: #686767;
+}
+
+.guid{
+    background-color: #fff3cd;
+    align-content: center;
+    padding: 20px 0px 20px 70px;
+}
+.guid h6{
+    color: #a8977b;
+    font-size: 1.5rem;
+}
+.guid h2{
+
+    font-size: 3.5rem;
+    font-weight: bold;
+
+}
+.guid p{
+    font-size: 1.2rem;
+    color: rgb(87, 86, 86);
+}
+
+.guid button{
+    width: 170px;
+    height: 60px;
+    background-color: #a8977b;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: 1px solid #a8977b;
+
+}
+
+.guid button:hover{
+    background-color: #8f7140;
+    cursor: pointer;
+}
+
+.latest h2{
+    font-size: 3.5rem;
+    font-weight: bold;
+
+}
+
+.latest p{
+    font-size: 1.2rem;
+    color: rgb(87, 86, 86);
+
+}
+.news{
+    margin-bottom: 50px;
+    background-color: #ffffff;
+}
+.news h5{
+    font-size: 1.4rem;
+    color: rgb(87, 86, 86);
+
+}
+.news h3{
+    font-size: 1.5rem;
+}
+.news h3:hover{
+    color: #8f7140;
+}
+
+.latest1{
+    margin-top: 100px;
+   
+    background-color: #f8f9fa;
+}
+
+.subscribe{
+    background-image: url(../images/illustration/subscribe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    color: #ffffff;
+    align-content: center;
+}
+.sub h2{
+
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.sub p{
+    font-size: 1.2rem;
+}
+
+.sub form input{
+    width: 250px;
+    height:50px
+    
+}
+.sub form button{
+    width: 170px;
+    height: 50px;
+    background-color: #a8977b;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: 1px solid #a8977b;
+
+}
+.sub form button:hover{
+    background-color: #8f7140;
+
+}
+footer{
+    background-color: black;
+    color: #ffffff;
+}
+.contact{
+    box-shadow: 1px 1px 1px 1px gray;
+    padding: 20px 0px 20px 40px;
+}
+.contact h4{
+    font-weight: bold;
+}
+.contact p{
+    color: #ffffff;
+}
+.contact a{
+    font-size: 1.5rem;
+    color: #8f7140;
+}
+.contact ul li{
+    color:#ffffff ;
+}
+
+.contact button{
+    background-color: #8f7140;
+}
+small{
+    font-size: 1.2rem;
+    color: #8f7140;
+}
+
+
+
+@media(min-width:768px){
+
+    .company a{
+        font-size: 2rem;
+        color: #ffffff;
+        text-decoration: none;
+        
+    }
+    
+
+}
+
+@media(min-width:1024px){
+
+    .company{
+        background-color: #ffffff;
+    }
+
+    .company a{
+        padding: 20px;
+        font-size: 2.2rem;
+        color:black;
+        text-decoration: none;
+        font-weight: bold;
+        
+    }
+
+    .architect h2{
+        color: #ffffff;
+        font-size: 4.5rem;
+        font-weight: bold;
+    }
+
+    .guid h2{
+
+        font-size: 3.9rem;
+        font-weight: bold;
+    
+    }
+
+    .sub form input{
+        width: 320px;
+        height:50px
+        
+    }
+    .sub form button{
+        width: 170px;
+        height: 50px;
+        
+    
+    }
+    
+    
+
+    
+}
+
+@media(min-width:1440px){
+    .architect h2{
+        color: #ffffff;
+        font-size: 5.5rem;
+        font-weight: bold;
+    }
+    
+}
+
+
